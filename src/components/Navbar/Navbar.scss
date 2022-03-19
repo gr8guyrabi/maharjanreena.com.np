@@ -38,4 +38,20 @@
         }
         
     }
+
+    @media screen and (max-width: 900px) {
+        .app__navbar-menu {
+            
+            .app__navbar-menu_item {
+                padding: 1rem 1.5rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .app__navbar-menu {
+            display: none;
+        }
+
+    }
 }
