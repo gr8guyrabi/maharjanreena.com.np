@@ -16,6 +16,8 @@
 :root {
     --font-base: "open sans", "BeautyMountain";
     --font-alt: "Geraldine-Italic";
+    --primary-red: #913651;
+    --primary-gradient: linear-gradient(93.06deg, #CC186E -2.84%, #913651 105.38%);
 }
 
 * {
@@ -23,4 +25,13 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.custom-button {
+    
 }
