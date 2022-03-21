@@ -20,9 +20,9 @@ const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
   return (
     <div className="app__navbar">
-        <div className="app__navbar-logo">
+        <div className="app__navbar-logo" style={ showMenu ? { position: 'fixed', top: '0' } : {}}>
             <img src={logo} alt="logo" />
-            <p style={{ color: showMenu ? '#fff' : '#913651' }}>Reena Maharjan</p>
+            <p style={ showMenu ? { color: '#fff' } : {}}>Reena Maharjan</p>
         </div>
         <div className="app__navbar-links">
             <RenderMenuItems />
