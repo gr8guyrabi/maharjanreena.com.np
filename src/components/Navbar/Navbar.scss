@@ -123,10 +123,9 @@
         }
     }
 
-    @media screen and (max-width: 700px) {
-        .app__navbar-menu {
-            display: none;
+    @media screen and (max-width: 320px) {
+        .app__navbar-logo {
+            width: 60px;
         }
-
     }
 }
