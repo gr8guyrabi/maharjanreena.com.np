@@ -17,8 +17,14 @@
     --font-base: "open sans", "BeautyMountain";
     --font-alt: "Geraldine-Italic";
     --text-color-primary: #251D1D;
+    --text-color-secondary: #535151;
     --primary-red: #913651;
     --primary-gradient: linear-gradient(93.06deg, #CC186E -2.84%, #913651 105.38%);
+    --service-background-image: url('./assets/images/background.png');
+    --app-padding: 0 5rem;
+    --app-padding-sm: 0 2.5rem;
+    --background-primary: #f0f0f0;
+    --background-secondary: #E5E5E5;
 }
 
 * {

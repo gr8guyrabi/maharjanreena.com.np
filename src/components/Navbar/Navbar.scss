@@ -1,4 +1,7 @@
 .app__navbar {
+    padding: var(--app-padding);
+    background: var(--background-secondary);
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -127,5 +130,11 @@
         .app__navbar-logo {
             width: 60px;
         }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__navbar {
+        padding: var(--app-padding-sm);
     }
 }

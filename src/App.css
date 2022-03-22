@@ -1,11 +1,6 @@
 .app {
     font-family: var(--font-base);
-    background-color: #f0f0f0;
-    padding: 0 5rem;
-}
-
-.app__navbar {
-    /* display: none; */
+    background-color: var(--background-primary)
 }
 
 .custom__button {
@@ -29,10 +24,4 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-@media screen and (max-width: 900px) {
-    .app {
-        padding: 0 2.5rem;
-    }
 }

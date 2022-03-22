@@ -1,0 +1,129 @@
+.app__header {
+    padding: var(--app-padding);
+    background: var(--background-secondary);
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    padding-top: 3rem;
+    
+    .app__header-heading {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        
+        .app__header-heading_text {
+            margin: 2rem 0;
+            flex: 1.5;
+            
+            h1 {
+                font-style: bold;
+                font-size: 64px;
+                line-height: 72px;
+                vertical-align: top;
+                letter-spacing: 2%;
+            }
+            
+            p {
+                margin: 2rem 0;
+                font-size: 20px;
+                line-height: 24px;
+            }
+            
+        }
+        
+        .app__header-heading_image {
+            flex: 1;
+            width: 546px;
+            
+            img {
+                width: 100%;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 1100px) {
+        .app__header-heading {
+            .app__header-heading_text {
+                h1 {
+                    font-size: 48px;
+                    line-height: 54px;
+                }
+
+                p {
+                    font-size: 18px;
+                }
+            }
+
+            .app__header-heading_image {
+                width: 430px;
+            }
+            
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .app__header-heading {
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+
+            .app__header-heading_text {
+                display: flex;
+                flex-direction: column;
+                
+                h1 {
+                    font-size: 30px;
+                }
+            }
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+        .app__header-heading {
+            .app__header-heading_text {
+                h1 {
+                    font-size: 36px;
+                    line-height: 42px;
+                }
+
+                p {
+                    font-size: 18px;
+                }
+            }
+
+            .app__header-heading_image {
+                width: 300px;
+            }
+            
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .app__header-heading {
+            .app__header-heading_text {
+                h1 {
+                    font-size: 32px;
+                }
+            }
+
+            .app__header-heading_image {
+                width: 240px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .app__header {
+        padding: var(--app-padding-sm);
+    }
+}
