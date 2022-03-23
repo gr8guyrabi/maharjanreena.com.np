@@ -1,0 +1,165 @@
+.app__contact {
+    padding: var(--app-padding);
+    padding-top: 5rem;
+    
+    .app__contact-content {
+        background: #fff;
+        box-shadow: 0px 0px 30px rgba(38, 38, 38, 0.15);
+        padding: 3rem 5rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+
+        .app__contact-content_header {
+            padding: 1rem;
+
+            h3 {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: 0.05em;
+                margin-bottom: 1rem;
+            }
+            h1 {
+                color: var(--text-color-secondary);
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 59px;
+                letter-spacing: 0.03em;
+            }
+
+            .bend__line {
+                text-align: center;
+                img {
+                    justify-content: right;
+                    width: 100%;
+                }
+            }
+
+
+            .app__contact-content_services {
+                padding: 1rem 0;
+
+                .app__contact-content_services-item {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 10px 10px 0px;
+                    svg {
+                        color: var(--primary-red);
+                    }
+
+                    span {
+                        text-transform: capitalize;
+                        padding-left: .5rem;
+
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: var(--text-color-secondary);
+                    }
+                }
+            }
+
+            button {
+                color: var(--primary-red);
+                background: transparent;
+                border: 1px solid var(--primary-red);
+                outline: none;
+                padding: .5rem 2.5rem;
+                cursor: pointer;
+            }
+        }
+
+
+        .app__contact-image {
+         
+            padding-left: 1rem;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1100px) {
+        .app__contact-content {
+            .app__contact-content_header {
+                flex: 1;
+            }
+            .app__contact-image {
+                flex: 2;
+            }
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .app__contact-content {
+            flex-direction: column-reverse;
+            .app__contact-content_header {
+                margin-top: 2rem;
+
+                .bend__line {
+                    text-align: right;
+                }
+                button {
+                    width: 100%;
+                    font-size: 24px;
+                    padding: 1rem 0;
+                }
+
+            }
+
+            .app__contact-image {
+                padding: 0;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .app__contact-content {
+            padding: 1.5rem 2rem;
+            .app__contact-content_header {
+
+            }
+        }
+    }
+   
+    @media screen and (max-width: 600px) {
+        .app__contact-content {
+
+            .app__contact-content_header {
+                h1 {
+                    font-size: 32px;
+                    line-height: 48px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .app__contact-content {
+            padding: 1.5rem 1rem;
+            .app__contact-content_header {
+                h1 {
+                    font-size: 26px;
+                    line-height: 36px;
+                }
+
+                button {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .app__contact {
+        padding: var(--app-padding-sm);
+        padding-top: 5rem;
+    }
+}

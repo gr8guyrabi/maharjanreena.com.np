@@ -51,3 +51,10 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    .app__works {
+        padding: var(--app-padding-sm);
+        padding-top: 5rem;
+    }
+}
