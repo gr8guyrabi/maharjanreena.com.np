@@ -46,7 +46,7 @@ const objWorks = [
 
 const Works = () => {
   return (
-    <div className="app__works">
+    <div className="app__works" id="works">
         <div className="app__works-heading">
             <h1>my works</h1>
             <a href="#works" className="gradient__text">See All</a>
