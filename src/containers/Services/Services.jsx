@@ -1,6 +1,6 @@
 
 import { collection1, collection2, collection3 } from '../../constants/images'
-import './services.scss'
+import './Services.scss'
 
 const Services = () => {
   return (
