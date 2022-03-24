@@ -1,7 +1,7 @@
 import { BsCheck2Circle } from 'react-icons/bs'
 
 import { contact, bendline } from '../../constants/images'
-import './Contact.scss'
+import './contact.scss'
 
 const ContactServices = ['wedding', 'SFX makeup', 'photo shoot', 'graduation']
 

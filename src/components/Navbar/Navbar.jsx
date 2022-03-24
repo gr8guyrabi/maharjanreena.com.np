@@ -4,7 +4,7 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 import {AiFillCloseCircle} from 'react-icons/ai'
 
 import logo from '../../assets/images/logo.png'
-import './Navbar.scss'
+import './navbar.scss'
 
 const MenuItems = ['about', 'services', 'works', 'contact']
 

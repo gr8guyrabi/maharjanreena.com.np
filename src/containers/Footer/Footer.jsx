@@ -1,5 +1,5 @@
 import {logo} from '../../constants/images'
-import './Footer.scss'
+import './footer.scss'
 
 const Footer = () => {
   return (

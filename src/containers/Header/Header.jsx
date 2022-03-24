@@ -1,6 +1,6 @@
 
 import coverImg from '../../assets/images/cover.png'
-import './Header.scss'
+import './header.scss'
 
 const Header = () => {
     return (

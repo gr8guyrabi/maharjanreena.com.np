@@ -1,6 +1,6 @@
 
 import { work1, work2, work3, work4, work5, photoshoot1, photoshoot2, bridal,  } from '../../constants/images'
-import './Works.scss'
+import './works.scss'
 
 const RenderWork = ({ img, title }) => (
     <div className="app__works-gallery_item">

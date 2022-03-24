@@ -1,6 +1,6 @@
 
 import profileImg from '../../assets/images/profile.png'
-import './About.scss'
+import './about.scss'
 
 const About = () => {
     return (
