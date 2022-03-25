@@ -37,7 +37,7 @@ const Footer = () => {
                     <h1>   </h1>
                     <div className="app__footer-content_card">
                         <h4>Instagram</h4>
-                        <a href="#">reena.maharjan015</a>
+                        <a href="https://www.instagram.com/reena.maharjan015/">reena.maharjan015</a>
                     </div>
                     <div className="app__footer-content_card">
                         <h4>WhatsApp</h4>

@@ -26,7 +26,7 @@ const Contact = () => {
                 <button>Booking Now</button>
             </div>
             <div className="app__contact-image">
-                <img src={contact} alt="contact-image" />
+                <img src={contact} alt="contact_image" />
             </div>
         </div>
     </div>
