@@ -58,7 +58,7 @@
     }
 
     .app__navbar-links_item:after {
-        display:block;
+        display: block;
         content: '';
         border-bottom: solid 2px var(--primary-red);  
         transform: scaleX(0);  
@@ -104,8 +104,8 @@
     }
 
     .app__navbar-menu_close {
-        position: absolute;
-        top: 4rem;
+        position: fixed;
+        top: 4.5rem;
         right: 2rem;
         
         font-size: 2.5rem;

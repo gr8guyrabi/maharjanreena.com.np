@@ -8,10 +8,10 @@ import './Navbar.scss'
 
 const MenuItems = ['about', 'services', 'works', 'contact']
 
-const RenderMenuItems = () => (
+const RenderMenuItems = ({ onClick }) => (
     MenuItems.map(item => (
         <div key={item} className="app__navbar-links_item">
-            <a href={`#${item}`}>{item}</a>
+            <a href={`#${item}`} onClick={onClick}>{item}</a>
         </div>
     ))
 )
@@ -36,7 +36,7 @@ const Navbar = () => {
             {showMenu && (
                 <div className="app__navbar-menu__overlay slide-bottom">
                     <div className="app__navbar-links">
-                        <RenderMenuItems />
+                        <RenderMenuItems onClick={() => setShowMenu(false)}/>
                     </div>
                 </div>
             )}
