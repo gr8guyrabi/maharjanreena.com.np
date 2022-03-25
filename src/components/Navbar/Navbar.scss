@@ -133,9 +133,16 @@
             font-size: 2.5rem;
 
         }
+        @media screen and (max-width: 480px) {
+            padding: 1rem 0;
+            a {
+                font-size: 2.5rem;
+            }
+        }
     }
 
     @media screen and (max-width: 900px) {
         display: flex;
     }
+
 }
